@@ -1,39 +1,49 @@
 body {
-    background-color: aquamarine;
+    background-image: url('imagens/backgroun.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 /* Estilização do cabeçalho */
 header nav {
-    background-color: lightblue;
+    background-color: write;
+    opacity: 50%;
     height: 70px; 
     vertical-align: top;
+    font-size: large;
+    font-weight: bold;
     border: 1px solid black;
     box-sizing: border-box;
     display: inline-block;
     margin-bottom: 10px;
 }
 nav.usuario {
+    background-color: lightcyan;
+    opacity: 70%;
     width: 24.5%;
     float: left;
-    text-align: left;
-    background-color: lightyellow;
-    
-    margin-right: 8px;
-    padding: 8px;
+    text-align: center;
+    padding-bottom: 8px;
 }
 nav.titulo {
+    background-color: lightsteelblue;
+    opacity: 70%;
     width: 59.5%;
     float: left;
     text-align: center;
-    background-color: lightcoral;
+    text-decoration-color: blue;
     margin-right: 8px;
+}
+nav.titulo h1 { 
+    color: darkblue;
 }
 
 /* Estilização do menu de login/cadastro */
 nav.login-cadastro {
     width: 13.7%;
     float: left;
-    background-color: lightgreen;
+    background-color: lightcyan;
+    opacity: 70%;
     font-size: large;
 }
 nav.login-cadastro ul li {
@@ -45,7 +55,7 @@ nav.login-cadastro ul li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-     padding: 10px;
+    padding: 10px;
 }
 nav.login-cadastro ul li a:hover {
     color: white;
@@ -63,7 +73,8 @@ aside {
     float: left;
 }
 aside article {
-    background-color: lightgrey;
+    background-color: lightblue;
+    opacity: 70%;
     border: 1px solid black;
     display: inline-block;
     padding: 10px;
@@ -89,7 +100,8 @@ main {
     
 }
 main section {
-    background-color: lightpink;
+    background-color: lightskyblue;
+    opacity: 70%;
     border: 1px solid black;
     display: inline-block;
     padding: 10px;
@@ -117,7 +129,8 @@ aside.obras {
     float: right;
 }
 aside.obras article {
-    background-color: lightgrey;
+    background-color: lightblue;
+    opacity: 70%;
     border: 1px solid black;
     padding: 10px;
     box-sizing: border-box;
@@ -131,6 +144,7 @@ aside.obras article div {
     box-sizing: border-box;
     display: inline-block;
     font-size: 16px;
+    font-weight: bold;
 }
 aside.obras article div img {
     display: block;
@@ -143,4 +157,31 @@ aside.obras article div img {
     background-color: lightgrey;
     text-align: center;
     clear: both;
+}
+
+/* blackground */
+aside.personagens div h4.personagens {
+    background-color: lightblue;
+    opacity: 70%;
+    margin-right: 10px;
+}
+aside.personagens div input.busca {
+    margin-bottom: 10px;
+}
+
+main.autores div h4 {
+    background-color: lightskyblue;
+    opacity: 70%;
+    margin-right: 10px;
+}
+main.autores div input.busca {
+    margin-bottom: 10px;
+}
+
+aside div.pesquisa h4 {
+     background-color: lightblue;
+    opacity: 70%;
+}
+aside div.pesquisa input.busca {
+    margin-bottom: 10px;
 }
