@@ -1,3 +1,85 @@
 body {
     background-color: aquamarine;
 }
+
+/* Estilização do cabeçalho */
+header nav {
+    background-color: lightblue;
+    height: 70px; 
+    width: calc(33% - 16px);
+    vertical-align: top;
+    border: 1px solid black;
+    box-sizing: border-box;
+    display: inline-block;
+}
+nav.usuario {
+    float: left;
+    text-align: left;
+    background-color: lightyellow;
+}
+nav.titulo {
+    float: center;
+    text-align: left;
+    background-color: lightcoral;
+}
+nav.login-cadastro {
+    float: right;
+    background-color: lightgreen;
+}
+nav.login-cadastro ul li {
+    list-style-type: none;
+    display: inline-block;
+   
+}
+nav.login-cadastro ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+     padding: 10px;
+}
+nav.login-cadastro ul li a:hover {
+    color: white;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+/* Estilização da lateral de personagens */
+aside {
+    width: 20%;
+    float: left;
+}
+aside article {
+    background-color: lightgrey;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+}
+aside article div {
+    display: inline-block;
+    line-height: ;
+    text-align: top;
+}
+
+/* Estilização do conteúdo principal/autores */
+main {
+    width: 50%;
+    float: left;
+}
+main section {
+    background-color: lightpink;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px;
+
+} 
+main section div {
+    display: inline-block;
+    text-align: top;
+}
+
+/* Estilização do rodapé */
+.rodape {
+    background-color: lightgrey;
+    text-align: center;
+    clear: both;
+}
